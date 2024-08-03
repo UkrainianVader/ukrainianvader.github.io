@@ -197,3 +197,17 @@ Tag: purpose::daemon, role::enduser
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: https://cydia.saurik.com/info/com.saurik.afc2d/
 Name: Apple File Conduit "2"
+
+Package: clutch2
+Version: 2.0.4
+Architecture: iphoneos-arm
+Maintainer: KJCracks
+Filename: ./debs/clutch2.deb
+Size: 457524
+MD5sum: ab892f9fe73c37cd8bc174e31ce3e7b6
+SHA1: 6c4c3a43156e09b79f0b98f220341935096e8c78
+SHA256: 09e923dafaa848e44f73c86bf5d7b96641dc925b8392cd8bbe31e0fde1b85c2c
+Section: Terminal Support
+Description: High-speed iOS app decryption tool
+Author: KJCracks
+Name: Clutch 2.0.4
