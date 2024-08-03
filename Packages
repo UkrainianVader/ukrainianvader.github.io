@@ -29,3 +29,151 @@ Section: System
 Description: More device support for kDFUApp
 Author: LukeZGD
 Name: kDFUApp Bundles
+
+Package: cydia.com.ipc.crackerxi
+Version: 1.1.16
+Section: System
+Maintainer: c0pyn1nja
+Depends: firmware (>= 11.0)
+Architecture: iphoneos-arm
+Filename: debs//crackerxi_1.1.16.deb
+Size: 9960924
+MD5sum: 7363c9289b0041ba3bc8df156b751a9c
+Description: Decrypts iOS Apps
+Name: CrackerXI+
+Website: https://ipastore.me
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+
+Package: cydia.net.angelxwind.appsyncunified
+Version: 78.0
+Section: Tweaks
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: firmware (>= 5.0), firmware (<= 13.5.5), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Provides: appsync
+Replaces: us.hackulo.appsync50
+Architecture: iphoneos-arm
+Filename: debs//net.angelxwind.appsyncunified_78.0_iphoneos-arm.deb
+Size: 42210
+Installed-Size: 496
+MD5sum: 9e324b47dc9dfca5e8d1c104ad46d1ce
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Name: AppSync Unified
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Homepage: https://cydia.akemi.ai/
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+
+Package: uk.invoxiplaygames.googlesigninfix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames
+Installed-Size: 52
+Depends: mobilesubstrate, firmware (>= 6.0)
+Filename: ./files/googlesigninfix-1.0.1.deb
+Size: 3432
+MD5sum: 9112f892fbaaa0b307151cfd1bad5276
+SHA1: d6e5506ea296892e80923293098dd792bc58834c
+SHA256: cb174fc33fbf70d07a99eba5338dd75114ef1118b5fb2f8c015093784bb7edfd
+Section: Tweaks
+Description: Fixes Google-owned app login on iOS 6.
+Author: InvoxiPlayGames
+Depiction: http://cydia.invoxiplaygames.uk/dp/gsigninfix.php
+Name: GSignInFix
+
+Package: uk.invoxiplaygames.cydiahttpatch
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk
+Installed-Size: 100
+Depends: cydia, mobilesubstrate, firmware (<< 4.0)
+Filename: ./files/cydiahttpatch-1.0.deb
+Size: 2842
+MD5sum: 2100205abecf06d1a7d72d2636e770c4
+SHA1: 26c2c398c93f847aa007a7778b6148e554e395c6
+SHA256: 2c6ff66a0498eea88f786a17b8ca79400ae311a2f5f80d97eaeed44d4fe9d9bf
+Section: Tweaks
+Description: Removes HTTPS from Cydia to use on iOS 3.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/cydiahttpatch.php
+Name: Cydia HTTPatch
+
+Package: uk.invoxiplaygames.checkmatestore
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Installed-Size: 164
+Depends: mobilesubstrate, firmware (>= 2.0)
+Filename: ./debs/checkmatestore-1.2.deb
+Size: 5200
+MD5sum: 5245fc6431aadd77110a226b8f0d9ee8
+SHA1: 1330e7a5c051c6dfbff558184de78accecb19032
+SHA256: 0863fee434c9a1aed89696655b4075aa3edde2b2ad3ee2a0e99a99428c17ffe3
+Section: Tweaks
+Description: Disable capability limits in the App Store.
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Name: Checkmate, Store!
+
+Package: com.cannathea.afc2d-arm64
+Version: 1.2.0
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Architecture: iphoneos-arm
+Filename: debs/afc2kppless_1.2.0.deb
+Size: 15314
+Installed-Size: 292
+MD5sum: 2e514b930af7f2f7e3c9012f1efa9829
+SHA256: a7ed755554d9d204dd40e5a87c58f82ce1fe4a5aecea1b993f48a4e66888c71f
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above. Please install ldid as it is required for use. (except for the XinaA15 jailbreak)
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: saurik, Cannathea <csupport@cannathea.com>
+Tag: purpose::daemon
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+dev: cannathea
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+
+Package: com.level3tjg.bfdecrypt
+Version: 1.3.3-1
+Architecture: iphoneos-arm
+Maintainer: level3tjg <tjaygrantham@gmail.com>
+Installed-Size: 560
+Depends: firmware (>=11.0), preferenceloader, applist
+Filename: ./debs/com.level3tjg.bfdecrypt_1.3.3-1_iphoneos-arm.deb
+Size: 86576
+MD5sum: 74cc1a6ef06d0f7b94264656b6fa21d8
+SHA1: f6eb9de9dbf9e74b52130bb8def8150b831bb4f9
+SHA256: 72045552ce308719943feb2ab48a5123f9940daa05a2a30364f0f26a6bb5a74f
+Section: System
+Description: bfdecrypt for iOS 12/13/14
+Author: level3tjg <tjaygrantham@gmail.com>
+Name: bfdecrypt
+SileoDepiction: https://repo.p0358.net/sileo-depictions/bfdecrypt.json
+Depiction: https://repo.p0358.net/depiction-webviews/?json=https://repo.p0358.net/sileo-depictions/bfdecrypt.json&name=bfdecrypt&dev=level3tjg&section=System
+
+Package: com.ichitaso.mobileterminal
+Version: 1.0.2-2
+Section: Terminal Support
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0),  dpkg (>= 1.14.25-8), bash, coreutils, ncurses, system-cmds
+Conflicts: mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7, net.angelxwind.mobileterminal-applesdk, com.officialscheduler.mterminal
+Architecture: iphoneos-arm
+Filename: debs/iosterminal_1.0.2-2.deb
+Size: 190764
+Installed-Size: 696
+MD5sum: e25a5c8309553ce22693f057c75a5a14
+SHA256: e270f12d3c28cd675d2857816b84f1f9a3242f1f3f34745ce21093b6d65cc471
+Name: iOS Terminal
+Icon: file:///Applications/Terminal.app/Icon29x29@2x.png
+Description: Terminal emulator for iOS
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: ichitaso <willfeeltips+terminal@gmail.com>
+Tag: ios7support::1, ios8support::1, purpose::uikit
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iosterminalDp
+dev: ichitaso
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iosterminalDp
